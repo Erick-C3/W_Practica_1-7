@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(149, 168, 145);
+    display: grid;
+    justify-content: center;
+}
+
+#titulo-principal{
+    text-align: center;
+}
