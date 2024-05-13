@@ -11,9 +11,16 @@ function modificarTitulo() {
     console.log("Activando funcionalidad");
     let textoInput = document.querySelector("#ingreso-titulo").value;
     let h2TituloPrincipal = document.querySelector("#titulo-principal");
+    let bodyElemento = document.querySelector("#elemento-principal");
+    let contenedor = document.querySelector("#contenedor");
     console.log(textoInput);
     h2TituloPrincipal.textContent = textoInput;
+    h2TituloPrincipal.style.fontFamily  = "monospace";
     h2TituloPrincipal.style.color = generarColorAleatorio();
+    contenedor.style.backgroundColor = generarColorAleatorio();
+    bodyElemento.style.backgroundColor = generarColorAleatorio();
+
+    
 }
 
 

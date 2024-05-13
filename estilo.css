@@ -7,3 +7,9 @@ body{
 #titulo-principal{
     text-align: center;
 }
+
+#contenedor{
+    display: grid;
+    border: 1px solid black;
+    padding: 15px;
+}
